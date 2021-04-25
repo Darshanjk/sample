@@ -11,6 +11,4 @@ $headers = "From: noreply@codeconia.com " .\r\n" .
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
-//redirect
-header("Location:thankyou.html");
 ?>
